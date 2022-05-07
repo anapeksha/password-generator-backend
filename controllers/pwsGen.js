@@ -10,7 +10,7 @@ exports.generatePWD = (req, res) => {
   var length = req.query.length;
   var chars = req.query.characters;
   if (length !== undefined && chars !== undefined) {
-    return res.json({ password: randomPassword(length, chars) });
+    return res.status(200).json({ password: randomPassword(length, chars) });
   } else {
     return res.status(400).json({
       error: "Bad Query Parameters",
