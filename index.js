@@ -19,7 +19,7 @@ app.use(express.json());
 app.use("/api/v1", genPwRoute);
 
 //Docs route
-app.use("/api/v1", docsRoute);
+app.use("/api", docsRoute);
 
 //Start server
 app.listen(port, () => {
