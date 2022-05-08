@@ -10,6 +10,10 @@ https://github.com/anapeksha/password-generator/blob/main/docs/swagger.yml
 
 > https://randompassword-generator.herokuapp.com/api/v1/generatePWD?length=10&characters=abcd1234
 
+## Swagger Docs
+
+> https://randompassword-generator.herokuapp.com/api/docs
+
 ## Install
 
     yarn install
