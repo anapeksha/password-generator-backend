@@ -8,7 +8,7 @@ const swaggerDocument = YAML.load("./docs/swagger.yml");
 
 //custom css for swagger
 var options = {
-	customCss: ".swagger-ui .topbar { display: flex }",
+	customCss: ".swagger-ui .topbar { display: none }",
 };
 
 router.use("/docs", swaggerUi.serve);
