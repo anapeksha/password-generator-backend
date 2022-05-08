@@ -6,9 +6,9 @@ The **swagger.yml** file for following sample responses is available at:
 
 https://github.com/anapeksha/password-generator/blob/main/docs/swagger.yml
 
-## API Endpoint
+## Sample API Endpoint
 
-> https://randompassword-generator.herokuapp.com/api/v1
+> https://randompassword-generator.herokuapp.com/api/v1/generatePWD?length=10&characters=abcd1234
 
 ## Install
 
