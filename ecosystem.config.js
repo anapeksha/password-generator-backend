@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: "password-generator",
-    script: "./index.js",
+    script: "index.js",
     instances: "max",
     env: {
       NODE_ENV: "development",
