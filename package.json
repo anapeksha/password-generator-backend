@@ -1,6 +1,6 @@
 {
 	"name": "password-generator",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Public API for generating random passwords",
 	"main": "index.js",
 	"repository": "https://github.com/anapeksha/password-generator",
