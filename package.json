@@ -6,7 +6,6 @@
 	"repository": "https://github.com/anapeksha/password-generator",
 	"author": "Anapeksha Mukherjee",
 	"license": "MIT",
-	"private": false,
 	"scripts": {
 		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"start-dev": "nodemon index.js"
