@@ -3,7 +3,7 @@
 	"version": "1.0.1",
 	"description": "Public API for generating random passwords",
 	"main": "index.js",
-	"repository": "https://github.com/anapeksha/password-generator",
+	"repository": "https://github.com/anapeksha/password-generator-backend",
 	"author": "Anapeksha Mukherjee",
 	"license": "MIT",
 	"scripts": {
