@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: password-generator
   description: A public API to generate random passwords
-  version: 1.0.0
+  version: 1.0.1
   contact:
     email: anapeksha.mukherjee@gmail.com
 
@@ -13,18 +13,20 @@ servers:
     description: Development server
 
 paths:
-  /generatePWD:
+  /generatePWD/length/{length}/characters/{characters}:
     get:
       summary: returns a random password
       parameters:
         - name: length
-          in: query
+          in: path
           required: true
+          description: Length of the password
           schema:
             type: number
         - name: characters
-          in: query
+          in: path
           required: true
+          description: Characters to use in the password
           schema:
             type: string
       responses:
