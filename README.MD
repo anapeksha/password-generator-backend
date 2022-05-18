@@ -8,7 +8,7 @@ https://github.com/anapeksha/password-generator/blob/main/docs/swagger.yml
 
 ## Sample API Endpoint
 
-> https://randompassword-generator.herokuapp.com/api/v1/generatePWD?length=10&characters=abcd1234
+> http://localhost:8000/api/v1/generatePWD/length/12/characters/abcd
 
 ## Swagger Docs
 
@@ -35,7 +35,7 @@ GET - Success response - HTTP Response Code: **200**
     Content-Type: application/json
 
     {
-        "password": "dhfkjahs"
+        "password": "badbcccbcacb"
     }
 ```
 
